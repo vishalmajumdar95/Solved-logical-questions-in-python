@@ -1,1 +1,1 @@
-# Practise_questions-in-Python
+# Practice_questions-in-Python
