@@ -197,6 +197,70 @@
 # 	signup(x,y)
 
 
+# import json
+# ######## """load""""#
+
+# with open("data_file.json", "r") as read_content:
+#     print(json.load(read_content))
+
+# ####### """loads"""
+# data = """{ 
+#     "Name": "Jennifer Smith", 
+#     "Contact Number": 7867567898, 
+#     "Email": "jen123@gmail.com", 
+#     "Hobbies":["Reading", "Sketching", "Horse Riding"] 
+#     }"""
+
+# ######## """dump"""  
+# data = {
+#     "name": "Satyam kumar",
+#     "place": "patna",
+#     "skills": [
+#         "Raspberry pi",
+#         "Machine Learning",
+#         "Web Development"
+#     ],
+#     "email": "xyz@gmail.com",
+#     "projects": [
+#         "Python Data Mining",
+#         "Python Data Science"
+#     ]
+# }
+# with open( "data_file.json" , "w" ) as write:
+#     json.dump( data , write )
+
+# person_dict = {"name": "Bob",
+# "languages": ["English", "Fench"],
+# "married": True,
+# "age": 32
+# }
+
+# with open('person.txt', 'w') as json_file:
+#   json.dump(person_dict, json_file)
+# """dumps"""
+
+# person_dict = {'name': 'Vishal',
+# 'age': 17,
+# 'job': None
+# }
+# person_json = json.dumps(person_dict)
+# print(person_json)
+
+
+
+# import turtle
+# colors=["red",'white',"blue","green","orange","yellow","purple","gold"]
+# t=turtle.Pen()
+# t.speed(40)
+# turtle.bgcolor("black")
+# for x in range(0,360):
+#     t.pencolor(colors[x%8])
+#     t.width(x/1001)
+#     t.forward(x+21)
+#     t.left(140)
+
+
+
 
 
 
